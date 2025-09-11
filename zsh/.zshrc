@@ -1,6 +1,11 @@
 # source bash profile
 source $HOME/.bashrc
 
+#setup PATH
+export PATH="$HOME/.fzf/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.nvim/bin:$PATH"
+
 # vim keybindings
 
 bindkey -v
