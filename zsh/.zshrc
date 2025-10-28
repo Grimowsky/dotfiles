@@ -5,7 +5,8 @@ source $HOME/.bashrc
 export PATH="$HOME/.fzf/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.nvim/bin:$PATH"
-
+#setup cargo path for rg 
+export PATH="$HOME/.cargo/bin:$PATH"
 # vim keybindings
 
 bindkey -v
@@ -109,3 +110,6 @@ alias nrs='npm run start'
 alias ee='exit'
 alias ll='ls -la'
 alias as='f() { alias | grep -- "$1"; }; f'
+
+
+export PATH="$HOME/.cargo/bin:$PATH"
