@@ -6,8 +6,8 @@
       "type": "remote",
       "url": "https://mcp.figma.com/mcp",
       "oauth": {
-        "clientId": "l1BXytsy4wMIcyh5DGWOTy",
-        "clientSecret": "IhhovCAb2ZohAdMKNxaQpeRKdDcQkp"
+        "clientId": "",
+        "clientSecret": ""
       }
     }
   }
