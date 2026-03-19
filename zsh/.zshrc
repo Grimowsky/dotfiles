@@ -109,3 +109,7 @@ alias nrs='npm run start'
 alias ee='exit'
 alias ll='ls -la'
 alias as='f() { alias | grep -- "$1"; }; f'
+
+# opencode
+export PATH=/Users/mirkowsr/.opencode/bin:$PATH
+export EDITOR=nvim
