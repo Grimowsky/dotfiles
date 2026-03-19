@@ -111,9 +111,9 @@ alias ee='exit'
 alias ll='ls -la'
 alias as='f() { alias | grep -- "$1"; }; f'
 
-
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # opencode
-export PATH=/Users/rafal.mirkowski/.opencode/bin:$PATH
+export PATH=/Users/mirkowsr/.opencode/bin:$PATH
+export EDITOR=nvim
