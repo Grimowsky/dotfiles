@@ -5,6 +5,7 @@ source $HOME/.bashrc
 export PATH="$HOME/.fzf/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.nvim/bin:$PATH"
+export PATH="$HOME/homebrew/bin:$PATH"
 #setup cargo path for rg 
 export PATH="$HOME/.cargo/bin:$PATH"
 # vim keybindings
@@ -99,7 +100,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Load NVM
 
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -115,5 +115,10 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # opencode
-export PATH=/Users/mirkowsr/.opencode/bin:$PATH
+export PATH=$HOME/.opencode/bin:$PATH
 export EDITOR=nvim
+
+# opencode
+export PATH=$HOME/.opencode/bin:$PATH
+
+
