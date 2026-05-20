@@ -110,6 +110,10 @@ alias nrs='npm run start'
 alias ee='exit'
 alias ll='ls -la'
 alias as='f() { alias | grep -- "$1"; }; f'
+# git ammend and push last commit
+alias gafp='git add -A && git commit --amend --no-edit && git push --force-with-lease'
+# responsively app
+alias responsively="open -a ResponsivelyApp"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
