@@ -1,0 +1,27 @@
+{
+  "React arrow component": {
+    "prefix": "react:component",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import * as coreStyles from '@allegro/metrum-core/main.json';",
+      "import classNames from '@allegro/metrum-tools-classnames';",
+      "",
+      "export const $1 = ({}): React.ReactNode => {",
+      "",
+      "  return <></>",
+      "}",
+      ""
+    ],
+    "description": "React arrow component"
+  },
+  "import styles utils": {
+    "prefix": "styles:import",
+    "body": [
+      "import classNames from '@allegro/metrum-tools-classnames';",
+      "import * as coreStyles from '@allegro/metrum-core/main.json';",
+      ""
+    ],
+    "description": "import styles utils"
+  }
+}
