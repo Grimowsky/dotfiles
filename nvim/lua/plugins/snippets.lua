@@ -3,12 +3,10 @@ return {
   config = function(_, opts)
     local luasnip = require("luasnip")
 
-    -- Load default friendly-snippets
-    --  require("luasnip.loaders.from_vscode").lazy_load()
-
-    -- Load your custom snippets (JSON-style)
+    -- Load all VSCode-style snippet JSONs declared in snippets/package.json.
+    -- All entries use "language": ["all"], so every snippet is globally available.
     require("luasnip.loaders.from_vscode").lazy_load({
-      paths = { "~/.config/nvim/snippets" },
+      paths = { vim.fn.stdpath("config") .. "/snippets" },
     })
 
     -- (Optional) Load Lua-style snippets

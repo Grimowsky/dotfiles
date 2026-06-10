@@ -1,6 +1,6 @@
 {
   "React arrow component": {
-    "prefix": "react:component",
+    "prefix": "allegro:react:component",
     "body": [
       "import React from 'react';",
       "",
@@ -16,7 +16,7 @@
     "description": "React arrow component"
   },
   "import styles utils": {
-    "prefix": "styles:import",
+    "prefix": "allegro:styles:import",
     "body": [
       "import classNames from '@allegro/metrum-tools-classnames';",
       "import * as coreStyles from '@allegro/metrum-core/main.json';",
